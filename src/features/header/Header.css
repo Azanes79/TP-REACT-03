@@ -1,0 +1,14 @@
+.text-header {
+    font-family: "Lemon";
+    font-size: 35px !important;
+}
+
+.div-grid {
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10vw;
+    justify-items: center;
+}
+
+#trois {
+    align-self: flex-end;
+}
