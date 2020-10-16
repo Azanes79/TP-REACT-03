@@ -3,11 +3,15 @@
     font-size: 35px !important;
 }
 
-.div-grid {
+.normal-grid {
     grid-template-columns: repeat(3,1fr);
+}
+
+.grid {
     grid-gap: 10vw;
     justify-items: center;
 }
+
 
 #trois {
     align-self: flex-end;
