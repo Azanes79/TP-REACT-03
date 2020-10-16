@@ -1,18 +1,20 @@
 import React from 'react';
-import {Grommet, Main} from 'grommet';
+import {Grommet, Box} from 'grommet';
 import './App.css';
 import Navigation from './features/navigation/Navigation';
 import Header from './features/header/Header';
 import QuiSuisJe from './features/quiSuisJe/QuiSuisJe';
+import Parcour from './features/parcour/Parcour'
 
 function App() {
   return (
-    <Grommet full>
-      <Main fill="vertical" flex="grow" overflow="auto">
+    <Grommet full plain>
+      <Box fill="vertical">
         <Navigation/>
         <Header />
-        <QuiSuisJe></QuiSuisJe>
-      </Main>
+        <QuiSuisJe />
+        <Parcour />
+      </Box>
     </Grommet>
   );
 }

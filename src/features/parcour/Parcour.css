@@ -1,0 +1,9 @@
+/* .grid-parcour {
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10vw;
+    justify-items: center;
+} */
+
+#box-parcour {
+    min-height: auto;
+}

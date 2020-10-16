@@ -1,0 +1,30 @@
+[
+    {
+        "id": "BAC",
+        "name": "BAC STI2D",
+        "description": "Baccalauréat sciences et technologies de l'industrie et du développement durable option Système d'information et numérique",
+        "lieu": "Lycée Paul Guérin, à Niort (79)",
+        "date": "2016"
+    },
+    {
+        "id": "BTS",
+        "name": "BTS SIO",
+        "description": "Brevet technicien suppérieursServices informatiques aux organisations option solutions logicielles et applications métiers",
+        "lieu": "Lycée de la Venise Verte, à Niort (79)",
+        "date": "2018"
+    },
+    {
+        "id": "Licence",
+        "name": "Licence APSIO",
+        "description": "Licence professionnelle Analyste Programmeur de Systèmes Informatiques Ouverts",
+        "lieu": "IUT Blagnac, à Blagnac (31)",
+        "date": "2019"
+    },
+    {
+        "id": "Mastere",
+        "name": "Mastère Expert Developpement WEB",
+        "description": "Mastère Expert Developpement WEB",
+        "lieu": "Ynov, à Toulouse (31)",
+        "date": "2021"
+    }
+]
