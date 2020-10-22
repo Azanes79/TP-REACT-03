@@ -1,7 +1,7 @@
-import React from 'react'
-import { Box, Grid, Avatar, Text, ResponsiveContext } from 'grommet'
-import avatar from '../..//shared/img/avatar.svg'
-import './Header.css'
+import React from 'react';
+import { Box, Grid, Avatar, Text, ResponsiveContext } from 'grommet';
+import avatar from '../..//shared/img/avatar.svg';
+import './Header.css';
 
 const Header = () => {
     const size = React.useContext(ResponsiveContext);
