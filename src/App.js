@@ -4,7 +4,9 @@ import './App.css';
 import Navigation from './features/navigation/Navigation';
 import Header from './features/header/Header';
 import QuiSuisJe from './features/quiSuisJe/QuiSuisJe';
-import Parcour from './features/parcour/Parcour'
+import Parcour from './features/parcour/Parcour';
+import Competence from './features/competence/Competence'
+import Portfolio from './features/portfolio/Portfolio';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Header />
         <QuiSuisJe />
         <Parcour />
+        <Competence />
+        <Portfolio />
       </Box>
     </Grommet>
   );

@@ -14,11 +14,11 @@
 }
 
 #box-parcour {
-    min-height: 500px;
+    min-height: 560px;
 }
 
 #box-parcour-small {
-    min-height: 1400px;
+    min-height: 1600px;
 }
 
 .box-parcour{
@@ -44,4 +44,8 @@
 
 .min-height-box {
     min-height: 250px !important;
+}
+
+.title-parcour {
+    max-width: none !important;
 }
