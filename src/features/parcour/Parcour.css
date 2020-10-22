@@ -1,9 +1,39 @@
-/* .grid-parcour {
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 10vw;
+.grid-parcour-column {
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
     justify-items: center;
-} */
+    grid-gap: 10px;
+    margin: 2vw 0;
+}
+.grid-parcour-row {
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 10px;
+    margin: 2vw 0;
+}
 
 #box-parcour {
-    min-height: auto;
+    min-height: 500px;
+}
+
+.box-parcour{
+    border-radius: 30px;
+    box-shadow: 0px 0px 11px 5px #254030;
+}
+
+.box-parcour-diplome{
+    border-radius: 30px;
+}
+
+.grid-parcour-detail {
+    height: 100%;
+    grid-template-rows: 100px auto;
+}
+
+.icon-parcour-detail {
+    align-self: center !important;
+    justify-self: center !important;
+    width: 50px !important;
+    height: 50px !important;
 }
