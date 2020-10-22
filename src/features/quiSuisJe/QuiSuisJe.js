@@ -5,7 +5,7 @@ import computer from '../../shared/img/computer.svg'
 const QuiSuiJe = () => {
     const size = React.useContext(ResponsiveContext);
     return (
-        <Grid className={size === "small" ? "grid-qui-suis-je" : "grid-qui-suis-je grid-normal"}>
+        <Grid className={size === "small" ? "grid-qui-suis-je" : "grid-qui-suis-je grid-normal"} margin={{"bottom":"large"}}>
             <Heading className={size === "small" ? "" : "qui-un"}>
                 Qui suis-je ?
             </Heading>
