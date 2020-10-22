@@ -9,12 +9,16 @@
     grid-template-rows: repeat(4, 1fr);
     align-items: center;
     justify-items: center;
-    grid-gap: 10px;
+    grid-gap: 30px;
     margin: 2vw 0;
 }
 
 #box-parcour {
     min-height: 500px;
+}
+
+#box-parcour-small {
+    min-height: 1400px;
 }
 
 .box-parcour{
@@ -36,4 +40,8 @@
     justify-self: center !important;
     width: 50px !important;
     height: 50px !important;
+}
+
+.min-height-box {
+    min-height: 250px !important;
 }
