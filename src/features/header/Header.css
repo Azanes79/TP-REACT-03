@@ -8,8 +8,11 @@
 }
 
 .grid {
-    grid-gap: 10vw;
     justify-items: center;
+}
+
+.gap {
+    grid-gap: 10vw;
 }
 
 
