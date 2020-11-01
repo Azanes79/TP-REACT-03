@@ -6,7 +6,6 @@ import Header from './features/header/Header';
 import QuiSuisJe from './features/quiSuisJe/QuiSuisJe';
 import Parcour from './features/parcour/Parcour';
 import Competence from './features/competence/Competence'
-import Portfolio from './features/portfolio/Portfolio';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <QuiSuisJe />
         <Parcour />
         <Competence />
-        <Portfolio />
       </Box>
     </Grommet>
   );

@@ -1,11 +1,19 @@
 import React from 'react';
 import { Box, Heading, Text, Grid, Image, ResponsiveContext } from 'grommet';
 import './QuiSuisJe.css';
-import computer from '../../shared/img/computer.svg'
+import computer from '../../shared/img/computer.svg';
+
+import { useSelector } from 'react-redux';
+import {
+    getMode
+} from '../color-mode/ColorMode';
+
 const QuiSuiJe = () => {
     const size = React.useContext(ResponsiveContext);
     return (
-        <Grid className={size === "small" ? "grid-qui-suis-je" : "grid-qui-suis-je grid-normal"} margin={{"bottom":"large"}}>
+        <Grid 
+            className={useSelector(getMode) ? size === "small" ? "grid-qui-suis-je" : "grid-qui-suis-je grid-normal" : size === "small" ? "grid-qui-suis-je background-second-dark color-light" : "grid-qui-suis-je grid-normal background-second-dark color-light"}
+            pad={{"bottom":"large"}}>
             <Heading className={size === "small" ? "" : "qui-un"}>
                 Qui suis-je ?
             </Heading>

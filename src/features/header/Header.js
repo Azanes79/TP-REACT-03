@@ -3,11 +3,16 @@ import { Box, Grid, Avatar, Text, ResponsiveContext } from 'grommet';
 import avatar from '../..//shared/img/avatar.svg';
 import './Header.css';
 
+import { useSelector } from 'react-redux';
+import {
+    getMode
+} from '../color-mode/ColorMode';
+
 const Header = () => {
     const size = React.useContext(ResponsiveContext);
     return (
-        <Box fill="horizontal" background="#009d55" height="500px" id="box-header" align="center" justify="center">
-            <Grid className={size === "small" ? "grid" : "grid normal-grid"}>
+        <Box fill="horizontal" className={useSelector(getMode) ? 'background-light color-light' : 'background-dark color-light'} height="500px" id="box-header" align="center" justify="center">
+            <Grid className={size === "small" ? "grid gap" : "grid normal-grid"}>
                 <Box animation={{ "type": "slideRight", "delay": 500, "duration": 1000, "size": "xlarge" }}>
                     <Text className="text-header">étudiant</Text>
                 </Box>
