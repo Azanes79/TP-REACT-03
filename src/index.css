@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Lemon';
+  font-style: normal;
+  src: url('./shared/font/LEMONMILK-Regular.otf');
+
+}
+
+.background-dark {
+  background-color: #1b1b1b;
+}
+.background-second-dark {
+  background-color: #3e3e3e;
+}
+
+.background-light {
+  background-color: #009d55;
+}
+
+.background-second-light {
+  background-color: #254030;
+}
+
+.color-dark {
+  color: black;
+}
+
+.color-light {
+  color: white !important;
+}
+
+.border-dark {
+  border-color: white !important;
+}
+
+.border-dark:focus {
+  box-shadow: 0 0 2px 2px white !important;
+}

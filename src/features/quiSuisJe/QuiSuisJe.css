@@ -1,0 +1,41 @@
+.description {
+    margin: 0px 5vw;
+    text-align: justify;
+}
+
+.grid-qui-suis-je {
+    grid-gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-normal {
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,auto);
+}
+.qui-un {
+    grid-column: 1/7;
+    grid-row: 1;
+    text-align: center;
+    max-width: none;
+}
+
+.qui-deux {
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.qui-trois {
+    grid-column: 4/7;
+    grid-row: 2;
+}
+
+.qui-quatre {
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.qui-cinq {
+    grid-column: 4/7;
+    grid-row: 3;
+}

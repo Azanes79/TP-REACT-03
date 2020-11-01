@@ -1,0 +1,25 @@
+.text-header {
+    font-family: "Lemon";
+    font-size: 35px !important;
+}
+
+.normal-grid {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid {
+    justify-items: center;
+}
+
+.gap {
+    grid-gap: 10vw;
+}
+
+
+#trois {
+    align-self: flex-end;
+}
+
+#box-header {
+    min-height: 500px;
+}

@@ -1,0 +1,11 @@
+nav {
+    position: fixed;
+}
+
+.nav-text-decoration {
+    text-decoration: none;
+}
+
+.button {
+    color: white !important;
+}
